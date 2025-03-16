@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moiteek Digital Tech - Web Developer</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="bg-primary text-white shadow-sm fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Moiteek Digital Tech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <button id="theme-toggle" class="btn btn-outline-light ms-3">🌙</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="vh-100 d-flex align-items-center">
+    <div class="container text-center">
+      <img src="images/dp.png" alt="Mohammed Mohammed Mamman - Web Developer" class="profile-photo rounded-circle mb-4">
+      <h1 class="display-4 fw-bold">Hi, I'm Mohammed Mohammed Mamman</h1>
+      <p class="lead">A passionate web developer with 2 years of experience in modern web technologies.</p>
+      <div class="cta-buttons mt-4">
+        <a href="#projects" class="btn btn-primary me-2">View My Work</a>
+        <a href="#cv" class="btn btn-secondary">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <p class="text-center lead">I'm a web developer with a strong foundation in front-end technologies. I love building responsive and user-friendly websites that deliver great experiences. Over the past 2 years, I've worked on various projects, honing my skills in HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fab fa-html5 fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">HTML</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fab fa-css3-alt fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">CSS</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fab fa-js-square fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">JavaScript</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fab fa-git-alt fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">Git</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/clearancepic.png" alt="Online Clearance System">
+          <div class="card-body">
+            <h3 class="card-title">Online Clearance System</h3>
+            <p class="card-text">A responsive website built with HTML, CSS, PHP, and MySQL.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/ecommercepic.png" alt="E-commerce for Textile">
+          <div class="card-body">
+            <h3 class="card-title">E-commerce for Textile</h3>
+            <p class="card-text">An interactive web application using HTML, CSS, and modern JavaScript.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV Section -->
+  <section id="cv" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Curriculum Vitae</h2>
+      <div class="cv-container">
+        <div class="cv-item">
+          <h3>Experience</h3>
+          <div class="cv-item">
+            <h4>Web Developer</h4>
+            <p>Moiteek Digital Tech | 2022 - Present</p>
+            <ul>
+              <li>Developed responsive websites</li>
+              <li>Implemented modern UI/UX designs</li>
+              <li>Optimized website performance</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cv-item">
+          <h3>Education</h3>
+          <div class="cv-item">
+            <h4>B.Sc Computer Science</h4>
+            <p>University of Kampala University | 2022 - 2025</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="cv pdf.pdf" download class="btn btn-primary btn-lg">Download Full CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <p class="text-center lead">If you'd like to collaborate or have any questions, feel free to reach out!</p>
+      <div class="text-center">
+        <a href="mailto:muhdmuhdmamman@gmail.com" class="btn btn-primary me-2"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://github.com/Moiteek" target="_blank" class="btn btn-primary me-2"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://linkedin.com/in/Mohammed-Mohammed-Mamaman" target="_blank" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Moiteek Digital Tech. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

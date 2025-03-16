@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .cv-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #1abc9c;
+  }
+  
+  .header-info {
+    margin-left: 20px;
+  }
+  
+  .header-info h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .header-info p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    color: #1abc9c;
+  }
+  
+  .contact-info a {
+    color: #1abc9c;
+    text-decoration: none;
+  }
+  
+  /* Main Content */
+  .cv-main h2 {
+    font-size: 22px;
+    color: #2c3e50;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .cv-section {
+    margin-bottom: 20px;
+  }
+  
+  .education-item, .experience-item, .leadership-item, .project-item {
+    margin-bottom: 15px;
+  }
+  
+  .education-item h3, .experience-item h3, .leadership-item h3, .project-item h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .education-item p, .experience-item p, .leadership-item p, .project-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+
+  /* Download Button */
+.download-button {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-download {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-download:hover {
+    background-color: #5a52e0;
+  }
+  
+  .btn-download i {
+    margin-right: 8px;
+  }
