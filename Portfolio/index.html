@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Mohammad Mohammed Mamman - Full Stack Developer specializing in modern web technologies">
+    <meta name="keywords" content="web developer, portfolio, frontend developer, backend developer, fullstack developer, React, Node.js, JavaScript">
+    <meta name="author" content="Mohammad Mohammed Mamman">
+    <meta name="theme-color" content="#4361ee">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Moiteek | Full Stack Developer Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing my web development projects and skills">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yourdomain.com/assets/images/social-preview.jpg">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:site_name" content="Moiteek Portfolio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Moiteek | Full Stack Developer Portfolio">
+    <meta name="twitter:description" content="Professional portfolio showcasing my web development projects and skills">
+    <meta name="twitter:image" content="https://yourdomain.com/assets/images/social-preview.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/assets/css/styles.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" crossorigin>
+    <link rel="preload" href="images/1000056820.jpg" as="image">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+          crossorigin="anonymous">
+</head>    <!-- Glass Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">Moiteek</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><button id="theme-toggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
+        </ul>
+        <div class="mobile-menu-btn" aria-label="Mobile menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Profile Photo -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="profile-photo-container">
+                <img src="images/1000056820.jpg" alt="Mohammad Mohammed Mamman" class="profile-photo" loading="lazy">
+                <div class="photo-border-animation"></div>
+                <div class="photo-overlay">
+                    <i class="fas fa-camera"></i>
+                </div>
+            </div>
+            
+            <div class="hero-content">
+                <p class="greeting">Welcome to my Portfolio</p>
+                <h1>Hi, I'm Mohmammed Mohammed Mamman a <span class="highlight" id="typing-text"></span><span class="cursor">|</span></h1>
+                <p class="subtitle">Crafting seamless digital experiences with modern web technologies. Specializing in responsive designs, scalable backends, and performant applications that deliver real business value.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta-button primary">Let's Connect <span class="btn-arrow">→</span></a>
+                    <a href="#projects" class="cta-button secondary">View Projects</a>
+                    <a href="assets/mohammed Mohammed mamman.pdf cv.pdf" download class="cta-button tertiary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down" aria-hidden="true">Scroll <span>↓</span></div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="section-header">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies I've mastered and tools I work with</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <ul class="skill-list">
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                </ul>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <ul class="skill-list">
+                    <li>Node.js</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile & Others</h3>
+                <ul class="skill-list">
+                    <li>React Native</li>
+                    <li>Flutter</li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database</h3>
+                <ul class="skill-list">
+                    <li>MongoDB</li>
+                     </ul>
+            </div>
+        </div>
+        <div class="skills-chart">
+            <!-- This would be a canvas or SVG element for visual skill representation -->
+            <canvas id="skillsChart"></canvas>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of my recent work</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="zoom-in">
+                <div class="project-image">
+                    <img src="images/Ecommerce.jpg" alt="E-commerce Platform" loading="lazy">
+                    <div class="project-links">
+                        <a href="#" class="project-link" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Modern E-commerce Platform</h3>
+                    <p class="project-description">A full-featured e-commerce solution with HTML, CSS frontend, js backend, and MongoDB database. Features include product filtering, cart functionality, and Stripe integration.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML, CSS</span>
+                        <span class="tech-tag">.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                         
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="images/task.jpg" alt="Task Management App" loading="lazy">
+                    <div class="project-links">
+                        <a href="#" class="project-link" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Task Management Application</h3>
+                    <p class="project-description">A productivity app built with Vue.js and Firebase that helps teams organize, track, and manage their work with real-time updates and collaborative features.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Real-time DB</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="images/health.jpg" alt="Health Tracking App" loading="lazy">
+                    <div class="project-links">
+                        <a href="#" class="project-link" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Health & Fitness Tracker</h3>
+                    <p class="project-description">Mobile application built with React Native that tracks workouts, nutrition, and health metrics with data visualization and personalized recommendations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">GraphQL</span>
+                        <span class="tech-tag">D3.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-more">
+            <button id="load-more-projects" class="cta-button secondary">View More Projects</button>
+        </div>
+    </section>
+
+   <!-- Certifications Section -->
+<section id="certifications" class="section certifications">
+    <div class="section-header">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">My professional qualifications and achievements</p>
+    </div>
+    <div class="certifications-grid">
+        <div class="certification-card" data-aos="flip-left">
+            <div class="certification-header">
+                <div class="certification-logo">
+                    <img src="images/ciscologo.png" alt="Cisco" loading="lazy">
+                </div>
+                <div class="certification-title">
+                    <h3>CCNAv7: Switching, Routing, and Wireless Essentials</h3>
+                    <p class="issuer">Cisco Networking Academy</p>
+                </div>
+            </div>
+            <div class="certification-body">
+                <p class="certification-description">Successfully completed the Cisco Networking Academy program covering switching, routing, and wireless essentials.</p>
+                <div class="certification-footer">
+                    <span class="date">Issued: May 2024</span>
+                    <a href="images/Cisco .pdf" class="view-link">View Credential</a>
+                </div>
+            </div>
+        </div>
+    </div>         
+       
+        <!-- Driscoll Internship Card -->
+        <div class="certification-card" data-aos="flip-left">
+            <div class="certification-header">
+                <div class="certification-logo">
+                    <img src="images/driscolllogo.webp" alt="Driscoll" loading="lazy">
+                </div>
+                <div class="certification-title">
+                    <h3>IT & Computer Science Internship</h3>
+                    <p class="issuer">Driscoll</p>
+                </div>
+            </div>
+            <div class="certification-body">
+                <p class="certification-description">Successfully completed a two-month internship program demonstrating skills in:
+                    <ul class="skills-list">
+                        <li>Dynamic Web Administration</li>
+                        <li>Network Administration</li>
+                        <li>Database Development (MySQL)</li>
+                        <li>Computer Repair & Maintenance</li>
+                        <li>Data & Network Security</li>
+                    </ul>
+                </p>
+                <div class="certification-footer">
+                    <span class="date">Dec 2023 - Jan 2024</span>
+                    <a href="images/Driscoll .pdf" class="view-link">View Credential</a>
+                </div>
+            </div>
+        </div>
+    </div>  
+                   <div class="certification-card" data-aos="flip-left">
+            <div class="certification-header">
+                <div class="certification-logo">
+                    <img src="images/nansulogo.jpeg" alt="NANSU" loading="lazy">
+                </div>
+                <div class="certification-title">
+                    <h3>Leadership Award for Outstanding Service</h3>
+                    <p class="issuer">NANSU (Nigerian Students in Uganda)</p>
+                </div>
+            </div>
+            <div class="certification-body">
+                <p class="certification-description">Recognized for exceptional leadership as NSA-President of Kampala University and contributions to the Nigerian student community in Uganda.</p>
+                <div class="certification-footer">
+                    <span class="date">Issued: Jan 2025</span>
+                    <a href="images/NANSU .pdf" class="view-link">View Credential</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Experience/Testimonials Section -->
+    <section id="experience" class="section experience">
+        <div class="section-header">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">Where I've worked and what clients say</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>junior Full Stack Developer</h3>
+                    <p class="company">Backend Dev Team </p>
+                    <ul class="timeline-description">
+                        <li>Lead development of enterprise web applications using React and Node.js</li>
+                        <li>Implemented CI/CD pipelines reducing deployment time by 40%</li>
+                        <li>Mentored junior developers and conducted code reviews</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="timeline-date">2024 - 2025</div>
+                <div class="timeline-content">
+                    <h3>Frontend Developer</h3>
+                    <p class="company">Ibkha Budget</p>
+                    <ul class="timeline-description">
+                        <li>Developed responsive user interfaces for client projects</li>
+                        <li>Optimized web performance achieving 95+ Lighthouse scores</li>
+                        <li>Collaborated with designers to implement UI/UX best practices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <h3 class="testimonials-title">What Clients Say</h3>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Mohammad delivered our project ahead of schedule with exceptional quality. His attention to detail and problem-solving skills are outstanding."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/" alt="mohammed mamman" loading="lazy">
+                        <div>
+                            <h4>Yusuf Ammar Baba</h4>
+                            <p>CEO, Backend Dev Team of IT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working with Mohammad was a pleasure. He understood our requirements perfectly and provided valuable technical insights that improved our product."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/" alt="Michael Chen" loading="lazy">
+                        <div>
+                            <h4>Official Shehi</h4>
+                            <p>CEO, Ibkha Budget</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind or want to connect?</p>
+        </div>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm" data-aos="fade-right">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Hello, I'd like to talk about..." required></textarea>
+                </div>
+                <button type="submit" class="cta-button primary">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+                <div class="form-status" id="formStatus"></div>
+            </form>
+            
+            <div class="contact-info" data-aos="fade-left">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Email Me</h3>
+                        <a href="mailto:contact@muhdmuhdmamman.com">muhdmuhdmamman.com</a>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Call Me</h3>
+                        <a href="tel:+12347031605516">+2347031605516</a>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Location</h3>
+                        <p>Potiskum, Yobe State, Nigeria</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/Moiteek" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/mohammed-mohammed-mamman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/RealMoiteek" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/sir__sarki" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://dribbble.com/moiteek" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Articles Section -->
+    <section id="blog" class="section blog">
+        <div class="section-header">
+            <h2 class="section-title">Latest Articles</h2>
+            <p class="section-subtitle">Thoughts on web development and technology</p>
+        </div>
+        <div class="blog-grid">
+            <article class="blog-card" data-aos="fade-up">
+                <div class="blog-image">
+                    <img src="images/web perfomance.png" alt="Web Performance Optimization" loading="lazy">
+                    <div class="blog-date">
+                        <span class="day">15</span>
+                        <span class="month">Jun</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <h3><a href="#">Modern Techniques for Web Performance Optimization</a></h3>
+                    <p class="blog-excerpt">Explore the latest strategies to make your websites faster and more efficient in 2023...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="blog-image">
+                    <img src="images/hooks.png" alt="React Hooks" loading="lazy">
+                    <div class="blog-date">
+                        <span class="day">02</span>
+                        <span class="month">Jul</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <h3><a href="#">Mastering React Hooks: Beyond the Basics</a></h3>
+                    <p class="blog-excerpt">Dive deep into advanced React Hooks patterns and learn how to build more maintainable components...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="blog-image">
+                    <img src="images/web3.jpeg" alt="Web3 Development" loading="lazy">
+                    <div class="blog-date">
+                        <span class="day">18</span>
+                        <span class="month">Jul</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <h3><a href="#">Getting Started with Web3 Development</a></h3>
+                    <p class="blog-excerpt">A beginner's guide to building decentralized applications on the blockchain...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+        <div class="view-all-blog">
+            <a href="#" class="cta-button secondary">View All Articles</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo">Moiteek</div>
+                <p class="footer-description">Creating digital experiences that matter.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h3 class="footer-title">Services</h3>
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Mobile Apps</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h3 class="footer-title">Newsletter</h3>
+                <p>Subscribe to get updates on my latest projects and articles.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit" aria-label="Subscribe">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 Moiteek. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="include/Privacy Policy.docx">Privacy Policy</a>
+                <a href="include/Terms of Service.docx">Terms of Service</a>
+            </div>
+        </div>
+        
+        <button id="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize AOS (Animate On Scroll) library
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        
+        // You would add more JavaScript functionality here
+        // For example: form validation, theme toggling, animations, etc.
+    </script>
+</body>
+</html>
